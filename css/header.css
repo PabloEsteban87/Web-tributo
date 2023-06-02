@@ -1,0 +1,50 @@
+header{
+  display: grid;
+
+}
+
+nav{
+    display: grid;
+    width: 100%;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+    gap: 52px;
+}
+
+nav ul li{
+    background-color: #1D84E3;
+    color: white;
+    padding: 11px;
+    width: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-menu{
+    background-color: #D49F37;
+}
+
+nav ul li img{
+width: 200px;
+height: 100px;
+border-radius: 350px;
+box-shadow: 10px 10px 50px -4px #1D84E3;
+}
+
+
+.linea{
+    border: 3px solid #1D84E3;
+    box-shadow: 10px 10px 50px -4px gray;
+    width: 99.4%;
+    font-size: 3px;
+}
