@@ -5,9 +5,11 @@
 
 
 .banner-tintin img{
-    width: 100%;
+    width: 99.5%;
     height: 300px;
     display: flex;
+    background-color: #1D84E3;
+    border: 2px solid white;
 
 }
 
@@ -26,11 +28,37 @@
 .viñetas img{
 width: 200px;
 height: 200px;
+border: 20px #1D84E3;
+border-radius: 10px;
 }
 
 .imagen-tintin{
     width: 300px !important;
-    height: 300px !important;
-    box-shadow: 10px 10px 50px -4px #1D84E3;
+    height: 500px !important;
+    border-image: url('imagenes/main/path10323.svg') 23% 1 1 round;
 }
 
+.parrafos{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.parrafo1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 23px;
+    box-shadow: 10px 10px 50px -4px #1D84E3;
+    margin-top: 50px;
+}
+.parrafo1 p{
+    text-align: justify;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+}
