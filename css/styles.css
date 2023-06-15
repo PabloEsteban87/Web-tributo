@@ -2,11 +2,12 @@
 @import "main.css";
 @import "footer.css";
 @import "header.css";
+@import "main-herge.css";
 
 body{
 display: grid;
 /* justify-content: center;  */
-background-color: #D49F37;
+/* background-color: #D49F37; */
 }
 
 *{

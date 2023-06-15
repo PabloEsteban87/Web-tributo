@@ -1,0 +1,26 @@
+.banner-tintin-herge{
+    display: grid;
+    margin-top: 34px;
+}
+
+.banner-tintin-herge img{
+    width: 99.5%;
+    height: 300px;
+    display: flex;
+    background-color: #1D84E3;
+    border: 2px solid white;
+}
+
+
+.encabezado-herge{
+   position: absolute;
+   width: 99.5%;
+}
+
+.encabezado-herge h2{
+text-align: left;
+
+
+
+
+}

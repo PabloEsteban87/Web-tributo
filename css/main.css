@@ -5,7 +5,7 @@
 
 
 .banner-tintin img{
-    width: 99.5%;
+    width: 99.8%;
     height: 300px;
     display: flex;
     background-color: #1D84E3;
@@ -36,6 +36,9 @@ border-radius: 10px;
     width: 300px !important;
     height: 500px !important;
     border-image: url('imagenes/main/path10323.svg') 23% 1 1 round;
+    box-shadow: none !important;
+    position: relative;
+    top: 102px;
 }
 
 .parrafos{
@@ -50,15 +53,73 @@ border-radius: 10px;
     border-radius: 23px;
     box-shadow: 10px 10px 50px -4px #1D84E3;
     margin-top: 50px;
+  /*   width: 93.6%; */
 }
 .parrafo1 p{
     text-align: justify;
+    color: #1D84E3;
+}
+
+.parrafo1 h2{
+    color: #1D84E3;
+}
+
+.parrafo2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 23px;
+    box-shadow: 10px 10px 50px -4px #1D84E3;
+    margin-top: 50px;
+}
+
+.parrafo2 ul{
+    color: #1D84E3;
+    list-style: none;
+}
+
+.parrafo2 ul li{
+    padding: 3px;
+}
+
+.parrafo2 h2{
+    color: #1D84E3;
+    width: 100%;
+    text-align: center;
 }
 
 
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1441px) {
+body{
+    background-image: url("/imagenes/fondo/fondo_2.jpg");
+    background-size:cover;
+}
+
+    .fondo{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    border-radius: 20px;
+    
+
+}
+
+.parrafos{
+    padding: 10px;
+}
+
+.imagen-tintin{
+    top: 113px;
+}
+
+.contenedor-viñetas{
+    display: grid;
+    grid-template-rows: 300px 0px 300px;
+}
+
 
 }
